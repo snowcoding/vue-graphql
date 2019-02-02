@@ -1,11 +1,5 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
-</template>
-<template>
-  <div id="app">
     <div class="container">
       <SiteHeader></SiteHeader>
       <at-button type="primary">Test</at-button>
@@ -14,7 +8,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import SiteHeader from './components/core/SiteHeader';
 
 export default {
@@ -33,5 +26,16 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+  
+}
+
+.inner-container {
+  padding: 1em 0;
+}
+
+.page-title {
+  font-weight: 300;
+  font-size: 2em;
 }
 </style>
