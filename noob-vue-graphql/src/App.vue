@@ -7,6 +7,7 @@
 <template>
   <div id="app">
     <div class="container">
+      <SiteHeader></SiteHeader>
       <at-button type="primary">Test</at-button>
     </div>
   </div>
@@ -14,11 +15,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import SiteHeader from './components/core/SiteHeader';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    SiteHeader
   }
 }
 </script>
