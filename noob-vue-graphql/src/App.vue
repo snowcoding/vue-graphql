@@ -4,6 +4,13 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
+<template>
+  <div id="app">
+    <div class="container">
+      <at-button type="primary">Test</at-button>
+    </div>
+  </div>
+</template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
